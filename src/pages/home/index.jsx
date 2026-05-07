@@ -1,5 +1,5 @@
 import Hero from "./hero";
-import Statistic from "./statistics";
+import Statistics from "./statistics";
 
 const Home = () => {
   return (
