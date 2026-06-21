@@ -12,4 +12,4 @@ const covidSlice = createSlice({
   extraReducer: () => {},
 });
 
-export default covidSlice.reducers;
+export default covidSlice.reducer;

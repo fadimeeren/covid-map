@@ -8,3 +8,11 @@ export const totalApi = axios.create({
     "Content-Type": "application/json",
   },
 });
+export const detailApi = axios.create({
+  baseURL: "https://corona-virus-world-and-india-data.p.rapidapi.com",
+  headers: {
+    "x-rapidapi-key": "import.meta.env.VITE_TOTAL_API_KEY",
+    "x-rapidapi-host": "corona-virus-world-and-india-data.p.rapidapi.com",
+    "Content-Type": "application/json",
+  },
+});
